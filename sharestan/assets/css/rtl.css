@@ -1,0 +1,17 @@
+/*
+ * RTL Specific Overrides for Sharestan Theme
+ */
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.search-submit-btn {
+    border-radius: var(--sharestan-radius) 0 0 var(--sharestan-radius);
+}
+
+.mega-sub-menu a:hover {
+    padding-right: 6px;
+    padding-left: 0;
+}

@@ -1,0 +1,8 @@
+/*
+RTL Stylesheet for Sharestan Theme
+*/
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+}

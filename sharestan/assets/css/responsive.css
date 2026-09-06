@@ -1,0 +1,75 @@
+/*
+ * Responsive Styles for Sharestan Theme
+ */
+
+@media (max-width: 1024px) {
+    .sharestan-container {
+        padding: 0 20px;
+    }
+
+    .hero-grid-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .products-carousel-grid, .discount-products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-widgets-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-top-bar, .header-navigation-row {
+        display: none;
+    }
+
+    .header-main-row {
+        padding: 12px 0;
+    }
+
+    .header-actions {
+        display: none;
+    }
+
+    .mobile-bottom-nav {
+        display: flex;
+    }
+
+    body {
+        padding-bottom: 60px;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products-carousel-grid, .discount-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .discount-box-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-widgets-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .products-carousel-grid, .discount-products-grid {
+        grid-template-columns: 1fr;
+    }
+}

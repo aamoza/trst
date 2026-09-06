@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wpser="http://wordpress.org/export/1.2/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+	<title>شارستان - نمونه محتوای دمو</title>
+	<link>https://sharestan-theme.com</link>
+	<description>فروشگاه چندمنظوره وردپرس شارستان</description>
+	<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+	<language>fa-IR</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+
+	<!-- Sample Product 1 -->
+	<item>
+		<title>گوشی هوشمند حرفه‌ای پرچمدار</title>
+		<link>https://sharestan-theme.com/product/pro-smartphone</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[گوشی هوشمند حرفه‌ای با پردازنده قدرتمند، دوربین ۶۴ مگاپیکسلی و صفحه نمایش ۱۲۰ هرتزی. مناسب برای بازی و عکاسی حرفه‌ای.]]></content:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[28500000]]></wp:meta_value>
+		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[32000000]]></wp:meta_value>
+		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_sale_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[28500000]]></wp:meta_value>
+		</wp:post_meta>
+	</item>
+
+	<!-- Sample Product 2 -->
+	<item>
+		<title>لپ‌تاپ قدرتمند مخصوص طراحی و مهندسی</title>
+		<link>https://sharestan-theme.com/product/power-laptop</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[لپ‌تاپ گیمینگ و طراحی دارای ۱۶ گیگابایت رم، حافظه ۱ ترابایت SSD و کارت گرافیک مجزا.]]></content:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[54000000]]></wp:meta_value>
+		</wp:post_meta>
+	</item>
+
+	<!-- Sample Product 3 -->
+	<item>
+		<title>کفش اسپرت مردانه رانینگ</title>
+		<link>https://sharestan-theme.com/product/sports-shoes</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[کفش اسپرت رانینگ با کفی طبی و رویه تنفس‌پذیر، مناسب پیاده‌روی طولانی مدت.]]></content:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1850000]]></wp:meta_value>
+		</wp:post_meta>
+	</item>
+
+	<!-- Sample Product 4 -->
+	<item>
+		<title>کیف چرمی دست‌دوز طبیعی</title>
+		<link>https://sharestan-theme.com/product/leather-bag</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[کیف چرمی دست‌دوز تهیه شده از چرم طبیعی درجه یک، دارای جاملپ‌تابی و بند دوشی قابل تنظیم.]]></content:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2400000]]></wp:meta_value>
+		</wp:post_meta>
+	</item>
+
+	<!-- Sample Product 5 -->
+	<item>
+		<title>هدفون بی‌سیم نویز کنسلینگ</title>
+		<link>https://sharestan-theme.com/product/wireless-headphones</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[هدفون بی‌سیم بلوتوثی با قابلیت فعال حذف نویز (ANC) و باتری با شارژدهی ۳۰ ساعته.]]></content:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_type><![CDATA[product]]></wp:post_type>
+		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4200000]]></wp:meta_value>
+		</wp:post_meta>
+	</item>
+</channel>
+</rss>
