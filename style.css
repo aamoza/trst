@@ -1,0 +1,140 @@
+/*
+Theme Name: StoreTheme
+Theme URI: https://example.com/storetheme
+Author: Jules
+Author URI: https://example.com
+Description: A modern, clean, and responsive e-commerce WordPress theme with WooCommerce and RTL support.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: storetheme
+Tags: e-commerce, custom-menu, featured-images, rtl-language-support, translation-ready
+*/
+
+/* Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f8f9fa;
+    direction: rtl;
+    text-align: right;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #005177;
+}
+
+/* Layout Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Site Header */
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 15px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-branding .site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site-branding .site-title a {
+    color: #1a202c;
+}
+
+.main-navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-navigation a {
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.main-navigation a:hover {
+    color: #2b6cb0;
+}
+
+/* Main Content Area */
+.site-main {
+    padding: 40px 0;
+    min-height: 70vh;
+}
+
+/* WooCommerce Compatibility Styles */
+.woocommerce .button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.woocommerce .button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    background-color: #2c5282;
+}
+
+.woocommerce ul.products li.product {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.woocommerce ul.products li.product:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Site Footer */
+.site-footer {
+    background-color: #1a202c;
+    color: #a0aec0;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.site-footer a {
+    color: #cbd5e0;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+}
+
+.site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
