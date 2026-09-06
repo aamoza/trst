@@ -14,17 +14,82 @@
 	<language>fa-IR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 
-	<!-- Sample Product 1 -->
+	<!-- Image Attachment 1: Smartphone -->
+	<item>
+		<title>mobile-pro</title>
+		<link>https://sharestan-theme.com/mobile-pro.jpg</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>201</wp:post_id>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_status><![CDATA[inherit]]></wp:post_status>
+		<wp:attachment_url><![CDATA[https://sharestan-theme.com/wp-content/themes/sharestan/assets/images/mobile-pro.jpg]]></wp:attachment_url>
+	</item>
+
+	<!-- Image Attachment 2: Laptop -->
+	<item>
+		<title>laptop-power</title>
+		<link>https://sharestan-theme.com/laptop-power.jpg</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>202</wp:post_id>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_status><![CDATA[inherit]]></wp:post_status>
+		<wp:attachment_url><![CDATA[https://sharestan-theme.com/wp-content/themes/sharestan/assets/images/laptop-power.jpg]]></wp:attachment_url>
+	</item>
+
+	<!-- Image Attachment 3: Shoes -->
+	<item>
+		<title>shoes-sport</title>
+		<link>https://sharestan-theme.com/shoes-sport.jpg</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>203</wp:post_id>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_status><![CDATA[inherit]]></wp:post_status>
+		<wp:attachment_url><![CDATA[https://sharestan-theme.com/wp-content/themes/sharestan/assets/images/shoes-sport.jpg]]></wp:attachment_url>
+	</item>
+
+	<!-- Image Attachment 4: Leather Bag -->
+	<item>
+		<title>bag-leather</title>
+		<link>https://sharestan-theme.com/bag-leather.jpg</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>204</wp:post_id>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_status><![CDATA[inherit]]></wp:post_status>
+		<wp:attachment_url><![CDATA[https://sharestan-theme.com/wp-content/themes/sharestan/assets/images/bag-leather.jpg]]></wp:attachment_url>
+	</item>
+
+	<!-- Image Attachment 5: Headphones -->
+	<item>
+		<title>headphones-wireless</title>
+		<link>https://sharestan-theme.com/headphones-wireless.jpg</link>
+		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>205</wp:post_id>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_status><![CDATA[inherit]]></wp:post_status>
+		<wp:attachment_url><![CDATA[https://sharestan-theme.com/wp-content/themes/sharestan/assets/images/headphones-wireless.jpg]]></wp:attachment_url>
+	</item>
+
+	<!-- Product 1: Smartphone -->
 	<item>
 		<title>گوشی هوشمند حرفه‌ای پرچمدار</title>
 		<link>https://sharestan-theme.com/product/pro-smartphone</link>
 		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<description></description>
-		<content:encoded><![CDATA[گوشی هوشمند حرفه‌ای با پردازنده قدرتمند، دوربین ۶۴ مگاپیکسلی و صفحه نمایش ۱۲۰ هرتزی. مناسب برای بازی و عکاسی حرفه‌ای.]]></content:encoded>
+		<content:encoded><![CDATA[گوشی هوشمند حرفه‌ای با پردازنده قدرتمند ۸ هسته‌ای، دوربین ۶۴ مگاپیکسلی، حافظه داخلی ۲۵۶ گیگابایت و صفحه نمایش ۱۲۰ هرتزی Super AMOLED. مناسب برای بازی‌های سنگین و عکاسی حرفه‌ای.]]></content:encoded>
+		<excerpt:encoded><![CDATA[گوشی پرچمدار با ۲۵۶ گیگابایت حافظه و صفحه ۱۲۰ هرتز]]></excerpt:encoded>
 		<wp:post_id>101</wp:post_id>
 		<wp:post_type><![CDATA[product]]></wp:post_type>
 		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<category domain="product_cat" nicename="mobile"><![CDATA[موبایل]]></category>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[201]]></wp:meta_value>
+		</wp:post_meta>
 		<wp:post_meta>
 			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[28500000]]></wp:meta_value>
@@ -39,66 +104,114 @@
 		</wp:post_meta>
 	</item>
 
-	<!-- Sample Product 2 -->
+	<!-- Product 2: Laptop -->
 	<item>
 		<title>لپ‌تاپ قدرتمند مخصوص طراحی و مهندسی</title>
 		<link>https://sharestan-theme.com/product/power-laptop</link>
 		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[لپ‌تاپ گیمینگ و طراحی دارای ۱۶ گیگابایت رم، حافظه ۱ ترابایت SSD و کارت گرافیک مجزا.]]></content:encoded>
+		<content:encoded><![CDATA[لپ‌تاپ گیمینگ و مهندسی مجهز به پردازنده نسل ۱۳، ۳۲ گیگابایت رم DDR5، حافظه ۱ ترابایت NVMe SSD و کارت گرافیک اختصاصی RTX 4060.]]></content:encoded>
+		<excerpt:encoded><![CDATA[لپ‌تاپ قدرتمند با گرافیک RTX 4060 و ۳۲ گیگابایت رم]]></excerpt:encoded>
 		<wp:post_id>102</wp:post_id>
 		<wp:post_type><![CDATA[product]]></wp:post_type>
 		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<category domain="product_cat" nicename="digital"><![CDATA[لوازم دیجیتال]]></category>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[202]]></wp:meta_value>
+		</wp:post_meta>
 		<wp:post_meta>
 			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[54000000]]></wp:meta_value>
 		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[54000000]]></wp:meta_value>
+		</wp:post_meta>
 	</item>
 
-	<!-- Sample Product 3 -->
+	<!-- Product 3: Shoes -->
 	<item>
 		<title>کفش اسپرت مردانه رانینگ</title>
 		<link>https://sharestan-theme.com/product/sports-shoes</link>
 		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[کفش اسپرت رانینگ با کفی طبی و رویه تنفس‌پذیر، مناسب پیاده‌روی طولانی مدت.]]></content:encoded>
+		<content:encoded><![CDATA[کفش اسپرت رانینگ با کفی ژله‌ای و طبی، رویه تنفس‌پذیر ضد تعریق و زیره بسیار سبک برای پیاده‌روی طولانی مدت و ورزش.]]></content:encoded>
+		<excerpt:encoded><![CDATA[کفش طبی و بسیار سبک مخصوص پیاده‌روی و ورزش]]></excerpt:encoded>
 		<wp:post_id>103</wp:post_id>
 		<wp:post_type><![CDATA[product]]></wp:post_type>
 		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<category domain="product_cat" nicename="shoes"><![CDATA[کفش]]></category>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[203]]></wp:meta_value>
+		</wp:post_meta>
 		<wp:post_meta>
 			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1850000]]></wp:meta_value>
 		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2200000]]></wp:meta_value>
+		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_sale_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1850000]]></wp:meta_value>
+		</wp:post_meta>
 	</item>
 
-	<!-- Sample Product 4 -->
+	<!-- Product 4: Leather Bag -->
 	<item>
 		<title>کیف چرمی دست‌دوز طبیعی</title>
 		<link>https://sharestan-theme.com/product/leather-bag</link>
 		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[کیف چرمی دست‌دوز تهیه شده از چرم طبیعی درجه یک، دارای جاملپ‌تابی و بند دوشی قابل تنظیم.]]></content:encoded>
+		<content:encoded><![CDATA[کیف اداری چرمی دست‌دوز تهیه شده از چرم طبیعی گاو، دارای محفظه مخصوص لپ‌تاپ تا ۱۵ اینچ، بند دوشی چرمی و یراق‌آلات استیل ضد زنگ.]]></content:encoded>
+		<excerpt:encoded><![CDATA[کیف چرمی طبیعی دست‌دوز اداری با جای لپ‌تاپ]]></excerpt:encoded>
 		<wp:post_id>104</wp:post_id>
 		<wp:post_type><![CDATA[product]]></wp:post_type>
 		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<category domain="product_cat" nicename="bags"><![CDATA[کیف]]></category>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[204]]></wp:meta_value>
+		</wp:post_meta>
 		<wp:post_meta>
 			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2400000]]></wp:meta_value>
 		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2400000]]></wp:meta_value>
+		</wp:post_meta>
 	</item>
 
-	<!-- Sample Product 5 -->
+	<!-- Product 5: Headphones -->
 	<item>
 		<title>هدفون بی‌سیم نویز کنسلینگ</title>
 		<link>https://sharestan-theme.com/product/wireless-headphones</link>
 		<pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<content:encoded><![CDATA[هدفون بی‌سیم بلوتوثی با قابلیت فعال حذف نویز (ANC) و باتری با شارژدهی ۳۰ ساعته.]]></content:encoded>
+		<content:encoded><![CDATA[هدفون بی‌سیم دور گوش مجهز به حذف نویز فعال (ANC)، باتری با شارژدهی ۴۰ ساعته، کیفیت صدای Hi-Res و میکروفون‌های شفاف برای مکالمه.]]></content:encoded>
+		<excerpt:encoded><![CDATA[هدفون بی‌سیم با قابلیت حذف نویز و شارژدهی ۴۰ ساعته]]></excerpt:encoded>
 		<wp:post_id>105</wp:post_id>
 		<wp:post_type><![CDATA[product]]></wp:post_type>
 		<wp:post_status><![CDATA[publish]]></wp:post_status>
+		<category domain="product_cat" nicename="accessories"><![CDATA[اکسسوری]]></category>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[205]]></wp:meta_value>
+		</wp:post_meta>
 		<wp:post_meta>
 			<wp:meta_key><![CDATA[_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4200000]]></wp:meta_value>
+		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_regular_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4900000]]></wp:meta_value>
+		</wp:post_meta>
+		<wp:post_meta>
+			<wp:meta_key><![CDATA[_sale_price]]></wp:meta_key>
 			<wp:meta_value><![CDATA[4200000]]></wp:meta_value>
 		</wp:post_meta>
 	</item>
